@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="https://og-on-the-fly.herokuapp.com/image?title=How%20to%20generate%20dynamic%20metadata!" />
+
     <title>
         @yield('title')
         {{ !empty($__env->yieldContent('title')) ? ' | ' : '' }}
